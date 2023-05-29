@@ -47,7 +47,7 @@ const obtenerPares = (array) => {
   return array2;
 };
 const pintarArray = (array) => {
-  srt = "";
+  let srt = "";
   for (let index = 0; index < array.length - 1; index++) {
     srt += `${array[index]}, `;
   }
